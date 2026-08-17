@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"lib": ["ES2023"],
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"types": ["node"],
+		"noEmit": true
+	},
+	"include": [
+		"auth",
+		"permissions",
+		"targets",
+		"subagents",
+		"claude-code-provider",
+		"usage",
+		"status",
+		"codex-compaction",
+		"queued-up"
+	]
+}
