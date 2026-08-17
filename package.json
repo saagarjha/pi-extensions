@@ -1,0 +1,18 @@
+{
+	"name": "pi-extensions",
+	"version": "0.1.0",
+	"type": "module",
+	"private": true,
+	"description": "Typecheck-only tooling for the extensions in this directory. pi provides these packages at runtime; nothing here is installed for the extensions to work.",
+	"scripts": {
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@earendil-works/pi-ai": "^0.84.2",
+		"@earendil-works/pi-coding-agent": "^0.84.2",
+		"@earendil-works/pi-tui": "^0.84.2",
+		"@types/node": "^26.2.0",
+		"typebox": "^1.3.14",
+		"typescript": "^7.0.2"
+	}
+}
